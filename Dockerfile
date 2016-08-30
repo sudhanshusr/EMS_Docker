@@ -1,4 +1,5 @@
-FROM jamespedwards42/docker-ubuntu-java-8:latest
+FROM docker.io/java:8-jre-alpine
+#FROM jamespedwards42/docker-ubuntu-java-8:latest
 ADD firstApp-assembly-1.0-SNAPSHOT.jar /
 #RUN echo "add user jenkins"
 #RUN echo "jenkins:jenkins"|chpasswd
