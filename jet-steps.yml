@@ -1,0 +1,8 @@
+- type: parallel
+  name: testing
+  steps:
+    - type: serial
+      name: prepare_site
+      steps:
+        - name: jet_release_notes
+          service: demo
