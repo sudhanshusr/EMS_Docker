@@ -6,4 +6,4 @@
       steps:
         - name: jet_release_notes
           service: demo
-          command: bash docker image
+          command: bash docker images
